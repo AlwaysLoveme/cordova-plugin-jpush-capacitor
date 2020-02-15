@@ -1,9 +1,9 @@
 {
-    "name": "cordova-jpush-plugin",
+    "name": "cordova-plugin-jpush",
     "version": "3.7.5",
     "description": "JPush for cordova plugin",
     "cordova": {
-        "id": "cordova-jpush-plugin",
+        "id": "cordova-plugin-jpush",
         "platforms": [
             "ios",
             "android"
@@ -11,7 +11,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/netsesame2/cordova-jpush-plugin.git"
+        "url": "git+https://github.com/netsesame2/cordova-plugin-jpush.git"
     },
     "keywords": [
         "JPush",
