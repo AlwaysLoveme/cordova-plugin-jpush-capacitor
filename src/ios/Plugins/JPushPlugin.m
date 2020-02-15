@@ -3,7 +3,7 @@
 #import <UIKit/UIKit.h>
 #import <AdSupport/AdSupport.h>
 #import <UserNotifications/UserNotifications.h>
-#import "AppDelegate+JPush.h"
+#import "JPushDelegate.h"
 #import "JPushDefine.h"
 
 @implementation NSDictionary (JPush)
@@ -31,7 +31,7 @@
 @implementation JPushPlugin
 
 -(void)startJPushSDK:(CDVInvokedUrlCommand*)command{
-    [(AppDelegate*)[UIApplication sharedApplication].delegate startJPushSDK];
+    [JPushDelegate.getInstance startJPushSDK];
 }
 
 #pragma mark- 外部接口
@@ -40,7 +40,7 @@
 }
 
 -(void)resumePush:(CDVInvokedUrlCommand*)command{
-    [(AppDelegate*)[UIApplication sharedApplication].delegate registerForRemoteNotification];
+    [JPushDelegate.getInstance registerForRemoteNotification];
 }
 
 -(void)isPushStopped:(CDVInvokedUrlCommand*)command{

@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>Appkey</key>
-	<string></string>
+	<string>3fb65ec90bf18d3d5bc42b12</string>
 	<key>Channel</key>
-	<string>channel name</string>
+	<string>developer-default</string>
 	<key>IsProduction</key>
-	<false/>
+	<true/>
 	<key>IsIDFA</key>
 	<false/>
 	<key>Delay</key>

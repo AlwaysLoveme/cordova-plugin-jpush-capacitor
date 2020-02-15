@@ -10,7 +10,7 @@
     <keywords>JPush,push</keywords>
     <license>MIT License</license>
 
-    <preference name="APP_KEY" />
+    <preference name="APP_KEY" value="3fb65ec90bf18d3d5bc42b12"/>
     <preference name="CHANNEL" default="developer-default" />
 
     <engines>
@@ -45,11 +45,11 @@
         <header-file src="src/ios/Plugins/JPushDefine.h" />
         <header-file src="src/ios/Plugins/JPushPlugin.h" />
         <source-file src="src/ios/Plugins/JPushPlugin.m" />
-        <header-file src="src/ios/Plugins/AppDelegate+JPush.h" />
-        <source-file src="src/ios/Plugins/AppDelegate+JPush.m" />
+        <header-file src="src/ios/Plugins/JPushDelegate.h" />
+        <source-file src="src/ios/Plugins/JPushDelegate.m" />
 
         <header-file src="src/ios/lib/JPUSHService.h" />
-        <source-file src="src/ios/lib/jpush-ios-3.2.6.a" framework="true" />
+        <source-file src="src/ios/lib/libjpush-ios-3.2.6.a" framework="true" />
         <resource-file src="src/ios/JPushConfig.plist" />
 
         <framework src="CFNetwork.framework" weak="true" />
@@ -66,7 +66,7 @@
         <framework src="libresolv.tbd" weak="true" />
 
         <config-file target="*JPushConfig.plist" parent="Appkey">
-            <string>$APP_KEY</string>
+            <string>3fb65ec90bf18d3d5bc42b12</string>
         </config-file>
     </platform>
 
