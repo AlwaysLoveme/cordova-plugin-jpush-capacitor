@@ -1,5 +1,7 @@
 # JPush PhoneGap / Cordova Plugin
 
+在官方基础上，增加对Capacitor的支持。
+
 [![Build Status](https://travis-ci.org/jpush/jpush-phonegap-plugin.svg?branch=master)](https://travis-ci.org/jpush/jpush-phonegap-plugin)
 [![release](https://img.shields.io/badge/release-3.4.1-blue.svg)](https://github.com/jpush/jpush-phonegap-plugin/releases)
 [![platforms](https://img.shields.io/badge/platforms-iOS%7CAndroid-lightgrey.svg)](https://github.com/jpush/jpush-phonegap-plugin)
