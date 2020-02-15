@@ -10,7 +10,7 @@
     <keywords>JPush,push</keywords>
     <license>MIT License</license>
 
-    <preference name="APP_KEY" value="3fb65ec90bf18d3d5bc42b12"/>
+    <preference name="APP_KEY"/>
     <preference name="CHANNEL" default="developer-default" />
 
     <engines>
@@ -66,7 +66,7 @@
         <framework src="libresolv.tbd" weak="true" />
 
         <config-file target="*JPushConfig.plist" parent="Appkey">
-            <string>3fb65ec90bf18d3d5bc42b12</string>
+            <string>${APP_KEY}</string>
         </config-file>
     </platform>
 
@@ -92,8 +92,6 @@
             <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
             <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
             <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-
-
 
             <!-- Optional for location -->
             <uses-permission android:name="android.permission.VIBRATE" />
