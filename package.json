@@ -27,7 +27,7 @@
     "author": "zhuxian",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/jpush/jpush-phonegap-plugin/issues"
+        "url": "https://github.com/AlwaysLoveme/cordova-plugin-jpush/issues"
     },
     "homepage": "https://github.com/jpush/jpush-phonegap-plugin#readme"
 }
