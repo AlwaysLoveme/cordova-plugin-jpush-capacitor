@@ -1,9 +1,9 @@
 {
-    "name": "cordova-plugin-jpush",
-    "version": "3.7.5",
-    "description": "JPush for cordova plugin",
+    "name": "cordova-plugin-jpush-capacitor",
+    "version": "3.7.7",
+    "description": "JPush for Capacitor plugin",
     "cordova": {
-        "id": "cordova-plugin-jpush",
+        "id": "cordova-plugin-jpush-capacitor",
         "platforms": [
             "ios",
             "android"
@@ -11,21 +11,20 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/netsesame2/cordova-plugin-jpush.git"
+        "url": "git+https://github.com/AlwaysLoveme/cordova-plugin-jpush.git"
     },
     "keywords": [
         "JPush",
         "push",
         "Push",
         "ecosystem:cordova",
-        "cordova-ios",
-        "cordova-android"
+        "capacitor"
     ],
     "devDependencies": {
         "cordova-plugin-device": "*",
-        "cordova-plugin-jcore": ">=1.3.0"
+        "cordova-plugin-jcore": "latest"
     },
-    "author": "JiGuang",
+    "author": "zhuxian",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/jpush/jpush-phonegap-plugin/issues"
