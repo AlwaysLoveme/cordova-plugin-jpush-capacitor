@@ -1,6 +1,6 @@
 {
     "name": "cordova-plugin-jpush-capacitor",
-    "version": "3.7.8",
+    "version": "3.7.9",
     "description": "JPush for Capacitor plugin",
     "cordova": {
         "id": "cordova-plugin-jpush-capacitor",
