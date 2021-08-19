@@ -1,6 +1,6 @@
 {
     "name": "cordova-plugin-jpush-capacitor",
-    "version": "3.7.7",
+    "version": "3.7.7-1",
     "description": "JPush for Capacitor plugin",
     "cordova": {
         "id": "cordova-plugin-jpush-capacitor",
@@ -29,5 +29,5 @@
     "bugs": {
         "url": "https://github.com/AlwaysLoveme/cordova-plugin-jpush/issues"
     },
-    "homepage": "https://github.com/jpush/jpush-phonegap-plugin#readme"
+    "homepage": "https://github.com/AlwaysLoveme/cordova-plugin-jpush#readme"
 }
